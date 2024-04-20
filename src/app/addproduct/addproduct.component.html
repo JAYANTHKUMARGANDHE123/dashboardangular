@@ -1,0 +1,27 @@
+<!-- addproduct.html -->
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+
+            <div class="form-group">
+                <label for="" class="form-label">productName</label>
+                <input type="text" class="form-control" [(ngModel)]="productName">
+            </div>
+            <div class="form-group">
+                <label for="" class="form-label">productCompany</label>
+                <input type="text" class="form-control" [(ngModel)]="productCompany"></div>
+            <div class="form-group">
+                <label for="" class="form-label">productPrice</label>
+                <input type="text" class="form-control " [(ngModel)]="productPrice"></div>
+            <div class="form-group">
+                <label for="" class="form-label">productImage</label>
+                <input type="text" class="form-control" [(ngModel)]="productImage"></div>
+                <div class="form-group">
+                    <button class="btn btn-success" (click)="addnow()">Add product</button>
+                </div>
+        </div>
+        <div class="col-md-4"></div>
+    </div>
+</div>

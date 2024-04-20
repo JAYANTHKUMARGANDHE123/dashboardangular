@@ -1,0 +1,12 @@
+<div [ngSwitch]="day">
+    <div *ngSwitchCase="0"><h1>Sunday</h1></div>
+    <div *ngSwitchCase="1"><h1>Monday</h1></div>
+    <div *ngSwitchCase="2"><h1>Tuesday</h1></div>
+    <div *ngSwitchCase="3"><h1>Wednesday</h1></div>
+    <div *ngSwitchCase="4"><h1>Thursday</h1></div>
+    <div *ngSwitchCase="5"><h1>Friday</h1></div>
+    <div *ngSwitchCase="6"><h1>Aaturday</h1></div>
+    <div *ngSwitchDefault>
+        <h1>Invalid day</h1>
+    </div>
+</div>
